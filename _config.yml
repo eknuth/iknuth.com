@@ -1,13 +1,13 @@
 # Permalinks
-permalink: /iknuth.com/:year/:month/:title
+permalink: /:year/:month/:title
 relative_permalinks: true
 
 # Setup
 title:            iknuth.com
 tagline:          Edwin Knuth
-url:              http://eknuth.github.io/iknuth.com
+url:              http://iknuth.com
 paginate:         1
-baseurl:          /iknuth.com/
+baseurl:          /
 author:
   name:           Edwin Knuth
   url:            http://iknuth.com

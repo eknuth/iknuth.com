@@ -5,9 +5,9 @@ relative_permalinks: true
 # Setup
 title:            iknuth.com
 tagline:          Edwin Knuth
-url:              http://iknuth.com
+url:              http://eknuth.github.io/iknuth.com
 paginate:         1
-baseurl:          /
+baseurl:          /iknuth.com/
 author:
   name:           Edwin Knuth
   url:            http://iknuth.com

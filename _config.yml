@@ -1,5 +1,5 @@
 # Permalinks
-permalink: /:year/:month/:title
+permalink: /iknuth.com/:year/:month/:title
 relative_permalinks: true
 
 # Setup

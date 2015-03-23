@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="theme-base-09">
+  <body class="theme-base-09" ng-app="iknuth">
 
     {% include sidebar.html %}
 
@@ -53,5 +53,7 @@
       ga('send', 'pageview');
 
     </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js'></script>
+    <script src="{{ site.baseurl }}assets/js/bundle.js"></script>
   </body>
 </html>

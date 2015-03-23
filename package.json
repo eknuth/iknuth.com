@@ -1,0 +1,23 @@
+{
+  "name": "iknuth.com",
+  "version": "1.0.0",
+  "description": "angular blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify _assets/js/index.js -dvo assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eknuth/iknuth.com.git"
+  },
+  "author": "Edwin Knuth",
+  "bugs": {
+    "url": "https://github.com/eknuth/iknuth.com/issues"
+  },
+  "homepage": "https://github.com/eknuth/iknuth.com",
+  "devDependencies": {},
+  "dependencies": {
+    "angular-chart-components": "^1.0.0"
+  }
+}

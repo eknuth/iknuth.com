@@ -11,7 +11,7 @@ In the last [example angular directive]({% post_url /2015/2015-03-22-lets-make-a
 
 However, it is often useful to wrap functionality provided by a javascript library into a directive, so that the behavior can be controlled by angular.
 
-The simplest form of angular directives is the single element replace, which follows the emerging web component pattern. Here is an [example map component](https://github.com/angular-reusable-components/angular-map-components) using mapbox.js.
+The simplest form of angular directive is the single element replace, which follows the emerging web component pattern. Here is an [example map component](https://github.com/angular-reusable-components/angular-map-components) using mapbox.js.
 
 In this way, the following html:
 

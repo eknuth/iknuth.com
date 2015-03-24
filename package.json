@@ -18,6 +18,7 @@
   "homepage": "https://github.com/eknuth/iknuth.com",
   "devDependencies": {},
   "dependencies": {
-    "angular-chart-components": "^1.0.0"
+    "angular-chart-components": "^1.0.0",
+    "map-components": "^1.0.1"
   }
 }

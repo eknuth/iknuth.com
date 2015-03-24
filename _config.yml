@@ -1,6 +1,5 @@
 # Permalinks
 permalink: /:year/:month/:title
-relative_permalinks: true
 
 # Setup
 title:            iknuth.com
@@ -18,3 +17,5 @@ version:          1.0.0
 github:			  https://github.com/eknuth
 
 exclude: ['node_modules', 'Gulpfile.js']
+
+

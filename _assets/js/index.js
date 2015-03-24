@@ -1,7 +1,8 @@
 var chartComponents = require('angular-chart-components');
+var mapComponents   = require('map-components');
 
 var module = angular.module('iknuth', [
-  'ChartComponents.barchart'
+  'ChartComponents', 'MapComponents'
 ]);
 
 /*@ngInject*/
@@ -20,6 +21,9 @@ module.controller('BarChartCtrl', function ($scope) {
     {value: 9, label: 'WOODSTOCK'},
     {value: 8, label: 'RICHMOND'}
   ];
+});
 
+/*@ngInject*/
+module.controller('MapDemoCtrl', function ($scope) {
 });
 

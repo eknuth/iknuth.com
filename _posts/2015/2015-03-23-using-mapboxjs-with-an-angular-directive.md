@@ -24,12 +24,12 @@ Can become:
 
 By passing a latitude and longitude to the directive, the map can be centered at a specific locations.
 
-For example, a map of Angkor Wat:
+For example, a map of Juneau, Alaska:
 
-<map options="{zoom: 14, lat: 13.4125, lng: 103.8667}"></map>
+<map location="{ zoom: 10, lat: 58.3, lng: -134.4 }"></map>
 
 Is as easy as:
 
 {% highlight html %}
-<map options="{zoom: 14, lat: 13.4125, lng: 103.8667}"></map>
+<map options="{ zoom:10, lat: 58.3, lng: -134.4 }"></map>
 {% endhighlight %}

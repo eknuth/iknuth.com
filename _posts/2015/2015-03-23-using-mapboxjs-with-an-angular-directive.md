@@ -31,5 +31,5 @@ For example, a map of Juneau, Alaska:
 Is as easy as:
 
 {% highlight html %}
-<map options="{ zoom:10, lat: 58.3, lng: -134.4 }"></map>
+<map location="{ zoom:10, lat: 58.3, lng: -134.4 }"></map>
 {% endhighlight %}

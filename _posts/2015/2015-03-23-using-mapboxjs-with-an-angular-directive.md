@@ -26,10 +26,10 @@ By passing a latitude and longitude to the directive, the map can be centered at
 
 For example, a map of Juneau, Alaska:
 
-<map location="{ zoom: 10, lat: 58.3, lng: -134.4 }"></map>
+<map location="{ zoom: 9, lat: 58.3, lng: -134.4 }"></map>
 
 Is as easy as:
 
 {% highlight html %}
-<map location="{ zoom:10, lat: 58.3, lng: -134.4 }"></map>
+<map location="{ zoom:9, lat: 58.3, lng: -134.4 }"></map>
 {% endhighlight %}

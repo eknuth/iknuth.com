@@ -18,7 +18,20 @@ tags: ["angular", "javascript", "d3", "npm", "browserify"]
     </div>
     <div class="col-md-6" ng-controller="BarChartCtrl">
       <h3>Portland neighborhoods by count of heritage trees</h3>
-      <barchart data="items"></barchart>
+      <barchart data="[
+        {value: 28, label: 'IRVINGTON'},
+        {value: 16, label: 'SELLWOOD-MORELAND IMPROVEMENT LEAGUE'},
+        {value: 13, label: 'NORTHWEST DISTRICT'},
+        {value: 12, label: 'HILLSDALE'},
+        {value: 12, label: 'GOOSE HOLLOW'},
+        {value: 11, label: 'SOUTHWEST HILLS'},
+        {value: 11, label: 'MT. TABOR'},
+        {value: 10, label: 'LAURELHURST'},
+        {value: 10, label: 'OVERLOOK'},
+        {value: 10, label: 'HOSFORD-ABERNETHY'},
+        {value: 9, label: 'WOODSTOCK'},
+        {value: 8, label: 'RICHMOND'}
+      ];"></barchart>
     </div>
   </div>
   <div class="row">
@@ -42,7 +55,28 @@ tags: ["angular", "javascript", "d3", "npm", "browserify"]
         </code>
       </pre>
     </div>
-    <p>Use the barchart directive in your markup with some data.</p>
+    <p>Use the barchart directive in your markup with some inline data.</p>
+    <div class="highlight">
+      <pre>
+        <code>
+          &lt;barchart data="[
+             {value: 28, label: 'IRVINGTON'},
+             {value: 16, label: 'SELLWOOD-MORELAND IMPROVEMENT LEAGUE'},
+             {value: 13, label: 'NORTHWEST DISTRICT'},
+             {value: 12, label: 'HILLSDALE'},
+             {value: 12, label: 'GOOSE HOLLOW'},
+             {value: 11, label: 'SOUTHWEST HILLS'},
+             {value: 11, label: 'MT. TABOR'},
+             {value: 10, label: 'LAURELHURST'},
+             {value: 10, label: 'OVERLOOK'},
+             {value: 10, label: 'HOSFORD-ABERNETHY'},
+             {value: 9, label: 'WOODSTOCK'},
+             {value: 8, label: 'RICHMOND'}
+           ]"&gt;&lt;/barchart&gt;
+        </code>
+      </pre>
+    </div>
+    <p>Use the barchart directive in your markup with some data on a controller.</p>
     <div class="highlight">
       <pre>
         <code>

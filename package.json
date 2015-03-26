@@ -2,10 +2,14 @@
   "name": "iknuth.com",
   "version": "1.0.0",
   "description": "angular blog",
-  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "partialify"
+    ]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "watchify _assets/js/index.js -dvo assets/js/bundle.js"
+    "watch": "watchify _assets/js/index.js -dvo assets/js/bundle.js -t partialify"
   },
   "repository": {
     "type": "git",
